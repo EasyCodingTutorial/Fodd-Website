@@ -1,0 +1,374 @@
+/* Body*/
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    padding: 22px;
+    transition: 1s;
+}
+.navbar.scroll{
+    background: #fff;
+}
+.navbar.scroll .navbar-brand{
+    color: #000 !important;
+}
+.navbar.scroll .nav-link{
+    color: #000 !important;
+}
+.navbar-brand{
+    font-weight: bold;
+    color: #fff !important;
+    font-size: 50px;
+    padding-left: 150px;
+    font-style: italic;
+}
+.navbar-nav{
+    padding-left: 300px;
+}
+.nav-link{
+    font-weight: bold;
+    color: #fff !important;
+    font-style: italic;
+    margin-left: 4px;
+    transition: 0.5s;
+}
+.nav-link:hover{
+  color: yellow !important;
+}
+/* Header Section Start */
+.header{
+    margin: 0;
+    padding: 0;
+}
+.header .img-parent{
+    position: relative;
+}
+.header img{
+    height: 100vh;
+    width: 100%;
+}
+.header .img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.5;
+}
+.header .img-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    text-align: center !important;
+    color: #fff !important;
+}
+.header .img-content a{
+    font-weight: bold;
+    width: 250px;
+    margin: 20px auto;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+.header .img-content a:hover{
+    width: 300px;
+    background: none;
+    color: #dc3445 !important;
+}
+.header .img-content h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45px;
+    margin: 30px auto !important;
+}
+.header .img-content span{
+    font-size: 15px;
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* ABOUT SECTION START */
+.about{
+    margin: 200px auto;
+    box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.4), inset 10px 10px 10px -10px rgba(0,0,0,0.8);
+    padding: 40px;
+    border-radius: 20px !important;
+}
+.about .col-sm-5{
+    margin-bottom: 100px;
+}
+.about .custom-content{
+    margin-top: 30px !important;
+}
+.about .custom-content h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    margin: 20px auto;
+}
+.about .custom-content span{
+    font-size: 15px;
+}
+.about h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 20px !important;
+}
+.about .first-custom-span{
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+}
+.about .first{
+    margin-top: 50px !important;
+}
+.about img{
+    border-radius: 20px !important;
+    cursor: pointer;
+    transition: 1s;
+}
+.about img:hover{
+    transform: scale(1.1);
+}
+
+/* MENU SECTION START */
+.menu{
+    margin-bottom: 200px;
+}
+.menu h2{
+    font-weight: bold;
+      font-style: italic;
+      font-size: 40px;
+      margin-top: 20px;
+}
+.menu .first-span{
+    font-weight: bold;
+    font-size: 20px !important;
+    font-style: italic;
+}
+.menu p{
+    font-weight: bold;
+    font-style: italic;
+}
+.menu .first-row{
+    margin: 60px auto;
+}
+.menu h6{
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu .container span{
+    font-weight: 500px;
+    font-size: 8px;
+}
+.menu img{
+    border: 2px solid #ccc !important;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+.menu img:hover{
+    transform: scale(1.3);
+}
+/* MENU SECTION END */
+ 
+/* MAKE RESERVATION START */
+
+.make-reservation{
+    margin-bottom: 200px;
+}
+.make-reservation .first {
+    text-align: center;
+}
+.make-reservation .first h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+.make-reservation .first span{
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.make-reservation form{
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.4) , inset 10px 10px 10px -10px rgba(0,0,0,0.8);
+    padding: 40px;
+    border-radius: 20px;
+}
+.make-reservation .how-we input{
+    min-height: 100px !important;
+}
+.make-reservation form button{
+    border-radius: 20px !important;
+}
+/* MAKE RESERVATION SECTION END */
+
+
+/* SIGN UP FOR NEWS LETTER SECTION START */
+.signup_news_letter{
+    margin-bottom: 400px !important; 
+    position: relative;
+}
+.signup_news_letter .img-parent{
+    position: relative;
+}
+.signup_news_letter img{
+    height: 70vh !important;
+    width: 100%;
+}
+.signup_news_letter .img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    z-index: 1;
+    opacity: 0.5;
+}
+.signup_news_letter .img-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.signup_news_letter #email{
+    width: 300px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff !important;
+    outline: none !important;
+    text-align: center !important;
+    background: transparent;
+    border: 2px solid #ccc !important;
+}
+.signup_news_letter .btn-danger{
+    padding: 12px;
+    width: 150px;
+    margin-left: 10px;
+    transition: 1s;
+}
+.signup_news_letter .btn-danger:hover{
+    background: none !important;
+    border: 1px solid #dc3445;
+}
+
+.signup_news_letter .img-content ::placeholder{
+    color: #fff !important;
+}
+.signup_news_letter h5{
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff !important;
+    font-style: italic;
+    font-size: 40px;
+    margin-bottom: 20px !important;
+}
+
+
+/* SIGN UP FOR NEWS LETTER SECTION END */
+
+.testimonial{
+    margin-bottom: 400px;
+    text-align: center;
+    background: #000;
+    color: #fff !important;
+    padding: 70px;
+}
+.testimonial .box{
+    padding: 20px;
+    border: 2px solid #ccc !important;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.testimonial .box:hover{
+    border: 2px solid #3498db;
+    transform: translateY(3px);
+    color: #3498db !important;
+}
+.testimonial .box span{
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+}
+.testimonial .box h6{
+    font-weight: bold;
+    font-style: italic;
+    color: red !important;
+    margin-top: 20px;
+}
+.testimonial .box:hover{
+     box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.7) , inset 10px 10px 10px -10px rgba(0,0,0,0.9); 
+}
+.testimonial img{
+    height: 60px;
+    width: 60px !important;
+    border-radius: 80%;
+    margin-left: 50px;
+}
+.testimonial .content{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.testimonial .content h2{
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+}
+.testimonial .content span{
+    font-size: 12px !important;
+    font-weight: bold;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* MAP SECTION START */
+.map{
+    margin-bottom: 400px;
+}
+.map .contact{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.map .contact h6{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.map .contact span{
+    font-weight: 500px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/* MAP SECTION END */
+
+
+
+
+
+/* FOOTER SECTION START */
+footer{
+    background: #000;
+    padding: 100px;
+}
+footer a{
+    font-weight: bold;
+    color: #fff !important;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: none !important;
+    text-transform: capitalize;
+}
